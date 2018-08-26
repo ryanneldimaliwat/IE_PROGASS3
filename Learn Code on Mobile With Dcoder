@@ -1,0 +1,69 @@
+#include <iostream>
+using namespace std;
+
+main ()
+{
+	string name;
+	int apple, orange, lemon, average;
+	int a = 1;
+	
+	while (a=1)
+	{
+	
+	cout << "Enter your name: ";
+	cin >> name;
+	
+	cout << endl << "-----------" << endl << "Hello Dear Student " << name << ",  Welcome to your fruit average!" << endl;
+        
+ cout << "Enter the number of your apple: ";
+	cin >> apple;
+	
+	cout << "Enter the number of your orange: ";
+	cin >> orange;
+	
+	cout << "Enter the number of your  lemon: ";
+	cin >> lemon;
+	
+	average = (apple + orange + lemon) / 3;
+	
+	cout << "The Average fruit that you get is: " << average << "%" << endl;
+	
+	
+	//-------------------------------
+	
+	if (average > 90 && average <= 100)
+    {
+       cout << "You got an Excellent!" << endl;
+    }
+
+    else if (average > 80 && average < 89)
+    {
+    	cout << "You got an Very Good!" << endl;
+    }
+
+    else if (average > 60 && average < 79)
+    {
+        cout << "You got an Good!" << endl;
+    }
+    
+    else 
+    {
+    	cout << "You got a Poor!" << endl;
+	}
+
+		
+	cout << endl <<  "Press 1 to continue, 0 to terminate the program: ";
+	cin >> a;
+	cout << endl << endl << "-----------" << endl;
+}
+
+cout << endl << "-----------" << "Thank You For Using The Program!";
+
+
+
+
+	
+	
+	
+	
+}
